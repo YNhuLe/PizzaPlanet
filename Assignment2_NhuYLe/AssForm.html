@@ -1,0 +1,107 @@
+<html>
+<head>
+<script src="js/Pizza.js"> </script>
+<link rel="stylesheet" href="css/styleSheet.css">
+
+</head>
+
+<body style="text-align: center;">
+    
+
+ <form  > 
+    <h1 id="title">PIZZA PLANET</h1>
+
+<table style="text-align: center;">
+    <tr>
+        <td id="firstName">First Name: </td>
+        <td><input type="text" id="fname" required pattern="[A-Za-z]"></td>
+        <td><span id="s1">*</span></td>
+    </tr>
+    
+    <tr>
+            <td id="lastName">Last name: </td>
+            <td><input type="text" id="lname" required></td>
+            <td><span id="s2">*</span></td>
+     </tr>
+
+    <tr>
+            <td id="Phone">Phone number: </td>
+            <td><input type="text" id="phone" required placeholder="999-999-9999" pattern="\d{3}\s\d{3}\s\d{4}"></td>
+            <td><span id="s3">*</span></td>  
+    </tr>
+    
+</table><br><br>
+
+ <p id="pizza">PIZZA lovers</p>
+  <div id="pizzaType">
+      <input type="radio" id="veggie" name="rate" value="Veg lovers"> Veg lovers
+      <img id="veggieImg" src="https://www.killingthyme.net/wp-content/uploads/2020/09/veggie-deluxe-pizza-5.jpg">
+      <input type="radio" id="pep" name="rate" value="Pepperoni"> Pepperoni
+      <img id="pepImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2e_dIQlml3TRcT-Pom0sQ0tFyuMjGGtzhUw&usqp=CAU" >
+      <input type="radio" id="ch" name="rate" value="Cheese" > Cheese
+      <img id="cheeseImg" src="https://media.istockphoto.com/photos/homemade-greasy-new-york-cheese-pizza-picture-id1004654554?k=20&m=1004654554&s=612x612&w=0&h=XhENahwzLz4CmHiTAEqYsYV2HhMMSTSt86Ri9z19Wqk=">
+    </div>
+    
+
+
+  <p id="pizzaSize" > Choose the Size</p>
+      <div id="rates" >
+         <img  id="pizzaSImage"
+         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZqHLGqAuJMzWXZlANuJXRtt6dj6FrpD88A&usqp=CAU" alt=""><br>
+        <input type="radio" id="s" name="ra" value="Small"> Small
+        <input type="radio" id="m" name="ra" value="Medium"> Medium
+        <input type="radio" id="l" name="ra" value="Large" > Large
+
+    </div>
+
+    <p id="pizzaCrust">PIZZA Crust</p><br>
+    <div id="pizzaC">
+        <input type="radio" id="thinhand" name="crust" value="thin"> Thin
+        <input type="radio" id="pep" name="crust" value="toss"> Hand tossed
+        <input type="radio" id="ch" name="crust" value="regular" > Regular
+  </div>
+
+<p id="drinkSelection">Drink Selection</p>
+
+<select name="drinkList" id="drinkOption">
+    <option id="noDrink" value="0">No drink</option>
+    <option id="coke" value="2">Coke</option>
+    <option id="sprite" value="2">Sprite</option>
+    <option id="dry" value="2">Canada dry</option>
+</select><br><br>
+
+<tr> 
+			
+    <td><input type = "button" id="btn1" onclick="check(); validateText();" value ="Total"></td>
+</tr>
+    <tr>
+        <td><input id="btn2" type = "reset"   value ="Reorder" ></td>
+</tr>
+
+<tr>
+     <td><input id="btn3" type = "submit" value="Order Now" ></td>
+</tr>
+<br>
+
+ <span id="bill" visibility: hidden></span>
+ <span  id="drink" visibility: hidden></span>
+
+ <p id="subtotal">Subtotal $:</p>
+ <span class="sut" id="sub"></span>
+
+ <p id="taxed">Tax $:</p>
+ <span  class="t" id="tax"></span>
+
+ <p id="grandTotal">Grand total $:</p>
+ <span class="gt" id="grand"></span><br>
+  
+
+
+   
+
+
+</form> 
+
+</body>
+
+</html>

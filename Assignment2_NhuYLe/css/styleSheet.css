@@ -1,0 +1,69 @@
+body {
+    background-image: url("https://c0.wallpaperflare.com/preview/839/412/980/food-and-drink-pizza-pizzas-tomato.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size:cover;
+   }
+   
+   #s1, #s2, #s3{
+     color:rgb(252, 235, 4);
+   }
+
+   #title{
+       color: rgb(248, 192, 7);
+       font-size: 100px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+   #firstName, #lastName, #phone{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-weight: bolder;
+        font-variant: small-caps;
+      color:rgb(248, 192, 8);
+   }
+   
+   #pizza, #pizzaSize, #pizzaCrust, #drinkSelection{
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:rgb(252, 235, 4);
+        font-weight: bolder;
+        font-size: 35px;
+          
+    }
+    #rates,#pizzaType, #pizzaC{
+        font-weight: bolder;
+        color: chartreuse;
+       
+    }
+
+    #veggieImg, #pepImg, #cheeseImg{
+       width: 100px;
+       height: 100px;
+    }
+     #pizzaSImage{
+      width: 250px;
+      height: 150px;  
+     }
+    #subtotal, #taxed, #grandTotal{
+        color:bisque;
+        font-size: 1.5em;
+        font-weight: bolder;
+
+    }
+    .sut, .t, .gt{
+        color:#cccccc;
+        font-weight: bolder;
+    }
+    #btn1, #btn2, #btn3, :hover{
+        background-color:greenyellow;
+        color:white;
+
+    }
+    #btn1, #btn2, #btn3{
+        color: black;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    #noDrink, #coke, #sprite, #dry {
+        color:blueviolet;
+        font-weight: bolder;
+    }
